@@ -17,6 +17,8 @@ function functionButton1(){
     let percentageToLevel = (TotalExp / LEVELUP) * 100;
     document.getElementById("the-actual-bar").innerHTML = TotalExp;
     document.getElementById("temporary-percentage-value").innerHTML = percentageToLevel.toFixed(2);
+
+    //the resets the exp back to 0
     if (TotalExp >= LEVELUP){
         TotalExp = 0
     }

@@ -27,8 +27,6 @@ h1{
 
 .grid-container-bottom-half .grid-item{
     background-color: darkgreen;
-    border: 1px solid black;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
 }
@@ -36,7 +34,6 @@ h1{
 .grid-container-bottom-half h3{
     background-color: lightgreen;
     border: 1px solid grey;
-    padding: 20px;
     font-size: 20px;
 }
 
@@ -47,4 +44,13 @@ button{
 .image{
     width: 100%;
     height: 100%;
+}
+
+#the-actual-bar{
+    width: 100%;
+    background-color: grey;
+}
+
+#temporary-percentage-value{
+    text-align: center;
 }
